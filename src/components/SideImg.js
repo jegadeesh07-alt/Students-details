@@ -3,7 +3,7 @@ import "../css/SideImg.css"
 const SideImg = () => {
   return (
     <div className="image">
-        <img src="../asset/image 6.png" alt="" />
+        <img src="../asset/emplyee.jpg.jpg" alt="no img found" />
     </div>
   )
 }
