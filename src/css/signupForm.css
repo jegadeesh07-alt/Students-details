@@ -1,0 +1,197 @@
+.signup-content{
+    display: grid;
+    grid-column: 2;
+    margin-left: 200px;
+}
+.signup-form-label h1{
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.signup-form-label p{
+    width: 249px;
+    height: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+.label1, .label2, .label3,.label4{
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+   padding-top: 20px;
+   font-size: 20px; 
+  }
+  
+.input1,.input2,.input3,.input4 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 25px;
+  width: 350px;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+  padding: 10px 18px;
+  }
+
+  .input1:focus{
+    border: 1px solid #FFD85F;
+    outline: none; 
+  }
+
+.input2:focus{
+    border: 1px solid #FFD85F;
+    outline: none;
+  }
+.input3:focus{
+    border: 1px solid #FFD85F;
+    outline: none;
+  }
+.input4:focus{
+    border: 1px solid #FFD85F;
+    outline: none; 
+  }
+
+
+.signup-form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 104px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    width: 388px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #FFD85F;
+    font-size: 20px;
+    border: none;
+}
+.signup-button:hover{
+    background-color: #f1bb18;
+    animation: ease-in-out(300);
+}
+
+.apple{
+    height: 50px;
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.apple-logo{
+    height: 30px;
+    width: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.apple-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.google{
+    height: 50px;
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.google-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloads{
+    width: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.footer{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+}
+
+.sign-in h3 a{
+    color: black;
+    
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: normal;
+    margin-right: 300px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+.terms{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 100px;
+    margin-right: 10px;
+    padding-bottom: 50px;
+    color: black; 
+}
+
+.employee-image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    height: 960px;
+    width: 688px;
+}
+
