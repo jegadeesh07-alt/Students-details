@@ -6,7 +6,7 @@ const SignupForm = () => {
         
         {/* form */}
         <div className="signup-content">
-        <div className="signup-form-label">
+        <form className="signup-form-label">
             <h1>Create an account</h1>
             <p>Sign up and get 30 day free trail</p>
         <div className="signup-inputs">
@@ -39,7 +39,7 @@ const SignupForm = () => {
                 required
             />
             <button type="submit" className="signup-button">Sign-Up</button>
-        </div>
+        </form>
         <div className="downloads">
             <div className="apple">
             <img className="apple-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="" />
