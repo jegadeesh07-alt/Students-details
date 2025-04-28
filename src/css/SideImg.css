@@ -1,0 +1,7 @@
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 65vw;
+    position: relative;
+    top: -650px;
+}
