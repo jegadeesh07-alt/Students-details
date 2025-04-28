@@ -1,7 +1,10 @@
 .signup-content{
-    display: grid;
-    grid-column: 2;
-    margin-left: 200px;
+
+    width: 500px;
+}
+.signup-form-label{
+    margin-left: 100px;
+
 }
 .signup-form-label h1{
     font-size: 38px;
@@ -144,17 +147,20 @@
     width: 380px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;   
+    justify-content: space-between;  
+    margin-top: 20px; 
 }
 
 .footer{
     width: 600px;
-    height: 200px;
+    height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     font-weight: normal;
+    font-size: 12px;
+    margin-right:200px;
 }
 
 .sign-in h3 a{
@@ -162,29 +168,14 @@
     
 }
 
-.sign-in{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    font-size: 12px;
-    font-weight: 100;
-    font-style: normal;
-    margin-right: 300px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    color: black;
+.sign-in{ 
+    display: grid;
+grid-template-rows: min-content;
+  
 }
 
 .terms{
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    font-weight: 100;
-    font-style: normal;
-    margin-top: 100px;
-    margin-right: 10px;
-    padding-bottom: 50px;
-    color: black; 
+    margin-left: 300px;
 }
 
 .employee-image{
