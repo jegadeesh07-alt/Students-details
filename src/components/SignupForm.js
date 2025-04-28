@@ -39,7 +39,7 @@ const SignupForm = () => {
                 required
             />
             <button type="submit" className="signup-button">Sign-Up</button>
-        </form>
+        
         <div className="downloads">
             <div className="apple">
             <img className="apple-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="" />
@@ -51,6 +51,7 @@ const SignupForm = () => {
             </div>
         </div>
         </div>
+        </form>
         {/* footer */}
         <div className="footer">
             <div className="sign-in">
