@@ -1,3 +1,4 @@
+import SideImg from "./components/SideImg";
 import SignupForm from "./components/SignupForm";
 import "./index.css"
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
 
     <SignupForm />
+    <SideImg />
 
     </div>
   );
