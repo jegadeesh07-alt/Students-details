@@ -1,5 +1,5 @@
 .signup-content{
-
+    margin-top: 50px;
     width: 500px;
 }
 .signup-form-label{
@@ -160,7 +160,7 @@
     align-items: center;
     font-weight: normal;
     font-size: 12px;
-    margin-right:200px;
+    margin-right:300px;
 }
 
 .sign-in h3 a{
