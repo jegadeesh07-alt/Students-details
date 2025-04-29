@@ -149,6 +149,7 @@
     flex-direction: row;
     justify-content: space-between;  
     margin-top: 20px; 
+    cursor: pointer;
 }
 
 .footer{
@@ -161,6 +162,7 @@
     font-weight: normal;
     font-size: 12px;
     margin-right:300px;
+    cursor: pointer;
 }
 
 .sign-in h3 a{
